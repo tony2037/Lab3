@@ -1,0 +1,53 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Mar 22, 2018 at 15:14:57 CST
+ncverilog
+	demux1to4_nand_tb.v
+	+define+FSDB
+	+access+r
+file: demux1to4_nand_tb.v
+	module worklib.demux1to2_nand:v
+		errors: 0, warnings: 0
+	module worklib.demux1to4_nand:v
+		errors: 0, warnings: 0
+	module worklib.demux1to4_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.demux1to4_tb:v <0x6253f782>
+			streams:   6, words:  8632
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  5       3
+		Primitives:              15       1
+		Registers:                2       2
+		Scalar wires:             1       -
+		Expanded wires:           2       1
+		Initial blocks:           3       3
+		Pseudo assignments:       2       2
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.demux1to4_tb:v
+Loading snapshot worklib.demux1to4_tb:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux x86_64/64bit, 11/12/2017
+(C) 1996 - 2017 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'demux1to4.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+                   0 Sel = 0, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0
+                  10 Sel = 0, D = 1, Y0 = 1, Y1 = 0, Y2 = 0, Y3 = 0
+                  20 Sel = 1, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0
+                  30 Sel = 1, D = 1, Y0 = 0, Y1 = 1, Y2 = 0, Y3 = 0
+                  40 Sel = 2, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0
+                  50 Sel = 2, D = 1, Y0 = 0, Y1 = 0, Y2 = 1, Y3 = 0
+                  60 Sel = 3, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0
+                  70 Sel = 3, D = 1, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 1
+Simulation complete via $finish(1) at time 80 NS + 0
+./demux1to4_nand_tb.v:36 #10 $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Mar 22, 2018 at 15:14:57 CST  (total: 00:00:00)

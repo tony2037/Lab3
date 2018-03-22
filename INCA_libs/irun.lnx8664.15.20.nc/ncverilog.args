@@ -1,0 +1,7 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+demux1to4_nand_tb.v
++define+FSDB
++access+r

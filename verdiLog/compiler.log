@@ -1,0 +1,12 @@
+*design* DebussyLib (btIdent Verdi_N-2017.12)
+Command arguments:
+    +define+verilog
+    /home/user2/vlsi18/vlsi1812/Lab3/demux1to7_tb.v
+
+
+*Error* Module demux1to2 redefined
+"demux1to2.v", 10: 
+Highest level modules:
+demux1to7_tb
+
+Total	1 error(s),   0 warning(s)

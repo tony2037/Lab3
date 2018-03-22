@@ -1,0 +1,8 @@
+s1(21Mar2018:17:55:39):  ncverilog ./demux1to7.v 
+s2(21Mar2018:17:57:59):  ncverilog ./demux1to7_tb.v +define+FSDB +define+v1 +define+v2 +define+v3 +access+r 
+s3(21Mar2018:18:01:36):  ncverilog demux1to7_tb.v +define+FSDB +define+v4 +access+r 
+s4(21Mar2018:18:07:17):  ncverilog demux1to7_tb.v +define+FSDB +define+v4 +access+r 
+s5(21Mar2018:18:11:32):  ncverilog demux1to7_tb.v +define+FSDB +define+v4 +access+r 
+s6(21Mar2018:18:13:21):  ncverilog demux1to7_tb.v +define+FSDB +define+v4 +access+r 
+s7(22Mar2018:14:47:14):  ncverilog demux1to2_nand_tb.v +define+FSDB +access+r 
+s8(22Mar2018:15:14:57):  ncverilog demux1to4_nand_tb.v +define+FSDB +access+r 

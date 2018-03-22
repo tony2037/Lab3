@@ -1,0 +1,8 @@
+debImport "/home/user2/vlsi18/vlsi1812/Lab3/demux1to7_tb.v" -path \
+          {/home/user2/vlsi18/vlsi1812/Lab3}
+wvCreateWindow
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvOpenFile -win $_nWave2 {/home/user2/vlsi18/vlsi1812/lab2/test.fsdb}
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/test_tb"
+debExit
