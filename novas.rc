@@ -361,8 +361,8 @@ savePropDtl = TRUE
 [QtDialog]
 importDesignForm = 642,290,684,661
 QwUserAskDlg = 800,496,334,140
-openFileDlg = 637,289,662,543
-qWaveSignalDialog = 538,291,860,539
+openFileDlg = 627,279,682,563
+qWaveSignalDialog = 528,281,880,559
 [Relationship]
 hideRecursiceNode = FALSE
 [Session Cache]
@@ -678,7 +678,7 @@ waveform_vertical_scroll_bar = TRUE
 scope_to_save_with_macro
 open_file_dir
 open_rc_file_dir
-getSignalForm = 538 291 860 539 181 441 429 104
+getSignalForm = 528 281 880 559 186 461 444 109
 viewPort = 0 22 1920 1018 100 65
 signalSpacing = 5
 digitalSignalHeight = 15
@@ -940,9 +940,9 @@ curveWindow_Drag&Drop_Mode = TRUE
 hspiceIncOpenMode = TRUE
 pcSelectMode = TRUE
 hierarchyDelimiter = /
-RecentFile1 = "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to4.fsdb\""
-RecentFile2 = "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to2.fsdb\""
-RecentFile3 = "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to7.fsdb\""
+RecentFile1 = "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to7.fsdb\""
+RecentFile2 = "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to4.fsdb\""
+RecentFile3 = "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to2.fsdb\""
 RecentFile4 = "\"/home/user2/vlsi18/vlsi1812/lab2/test.fsdb\""
 open_file_time_range = FALSE
 value_window_aligment = Right

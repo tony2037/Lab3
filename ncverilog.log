@@ -1,53 +1,67 @@
 ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s039: Started on Mar 22, 2018 at 15:14:57 CST
+TOOL:	ncverilog	15.20-s039: Started on Mar 22, 2018 at 16:21:21 CST
 ncverilog
-	demux1to4_nand_tb.v
-	+define+FSDB
+	demux1to7_tb.v
+	+define+v1+FSDB
 	+access+r
-file: demux1to4_nand_tb.v
-	module worklib.demux1to2_nand:v
+file: demux1to7_tb.v
+	module worklib.demux1to2:v
 		errors: 0, warnings: 0
-	module worklib.demux1to4_nand:v
-		errors: 0, warnings: 0
-	module worklib.demux1to4_tb:v
+module demux1to2 (Y0, Y1, Sel, D);  
+               |
+ncvlog: *W,RECOME (./demux1to2.v,10|15): recompiling design unit worklib.demux1to2:v.
+	First compiled from line 10 of demux1to2.v.
+(`include file: ./demux1to2.v line 10, `include file: demux1to4.v line 10, `include file: demux1to7_v1.v line 11, file: demux1to7_tb.v line 12)
+	module worklib.demux1to2:v
+		errors: 0, warnings: 1
+	module worklib.demux1to7_tb:v
 		errors: 0, warnings: 0
 		Caching library 'worklib' ....... Done
 	Elaborating the design hierarchy:
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.demux1to4_tb:v <0x6253f782>
-			streams:   6, words:  8632
+		worklib.demux1to7_tb:v <0x2d4bc221>
+			streams:   6, words: 12590
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
 		                  Instances  Unique
-		Modules:                  5       3
-		Primitives:              15       1
+		Modules:                  9       4
+		Primitives:              18       2
 		Registers:                2       2
 		Scalar wires:             1       -
-		Expanded wires:           2       1
+		Expanded wires:           3       1
 		Initial blocks:           3       3
 		Pseudo assignments:       2       2
 		Simulation timescale:  10ps
-	Writing initial simulation snapshot: worklib.demux1to4_tb:v
-Loading snapshot worklib.demux1to4_tb:v .................... Done
+	Writing initial simulation snapshot: worklib.demux1to7_tb:v
+Loading snapshot worklib.demux1to7_tb:v .................... Done
 *Verdi* Loading libsscore_ius152.so
 ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
 ncsim> run
 FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux x86_64/64bit, 11/12/2017
 (C) 1996 - 2017 by Synopsys, Inc.
-*Verdi* : Create FSDB file 'demux1to4.fsdb'
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'demux1to7.fsdb'
 *Verdi* : Begin traversing the scopes, layer (0).
 *Verdi* : End of traversing.
-                   0 Sel = 0, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0
-                  10 Sel = 0, D = 1, Y0 = 1, Y1 = 0, Y2 = 0, Y3 = 0
-                  20 Sel = 1, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0
-                  30 Sel = 1, D = 1, Y0 = 0, Y1 = 1, Y2 = 0, Y3 = 0
-                  40 Sel = 2, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0
-                  50 Sel = 2, D = 1, Y0 = 0, Y1 = 0, Y2 = 1, Y3 = 0
-                  60 Sel = 3, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0
-                  70 Sel = 3, D = 1, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 1
-Simulation complete via $finish(1) at time 80 NS + 0
-./demux1to4_nand_tb.v:36 #10 $finish;
+                   0 Sel = 0, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0, Y4 = 0, Y5 = 0, Y6 = 0
+                  10 Sel = 0, D = 1, Y0 = 1, Y1 = 0, Y2 = 0, Y3 = 0, Y4 = 0, Y5 = 0, Y6 = 0
+                  20 Sel = 1, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0, Y4 = 0, Y5 = 0, Y6 = 0
+                  30 Sel = 1, D = 1, Y0 = 0, Y1 = 1, Y2 = 0, Y3 = 0, Y4 = 0, Y5 = 0, Y6 = 0
+                  40 Sel = 2, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0, Y4 = 0, Y5 = 0, Y6 = 0
+                  50 Sel = 2, D = 1, Y0 = 0, Y1 = 0, Y2 = 1, Y3 = 0, Y4 = 0, Y5 = 0, Y6 = 0
+                  60 Sel = 3, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0, Y4 = 0, Y5 = 0, Y6 = 0
+                  70 Sel = 3, D = 1, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 1, Y4 = 0, Y5 = 0, Y6 = 0
+                  80 Sel = 4, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0, Y4 = 0, Y5 = 0, Y6 = 0
+                  90 Sel = 4, D = 1, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0, Y4 = 1, Y5 = 0, Y6 = 0
+                 100 Sel = 5, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0, Y4 = 0, Y5 = 0, Y6 = 0
+                 110 Sel = 5, D = 1, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0, Y4 = 0, Y5 = 1, Y6 = 0
+                 120 Sel = 6, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0, Y4 = 0, Y5 = 0, Y6 = 0
+                 130 Sel = 6, D = 1, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0, Y4 = 0, Y5 = 0, Y6 = 1
+                 140 Sel = 7, D = 0, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0, Y4 = 0, Y5 = 0, Y6 = 0
+                 150 Sel = 7, D = 1, Y0 = 0, Y1 = 0, Y2 = 0, Y3 = 0, Y4 = 0, Y5 = 0, Y6 = 1
+Simulation complete via $finish(1) at time 160 NS + 0
+./demux1to7_tb.v:64 #10 $finish;
 ncsim> exit
-TOOL:	ncverilog	15.20-s039: Exiting on Mar 22, 2018 at 15:14:57 CST  (total: 00:00:00)
+TOOL:	ncverilog	15.20-s039: Exiting on Mar 22, 2018 at 16:21:22 CST  (total: 00:00:01)

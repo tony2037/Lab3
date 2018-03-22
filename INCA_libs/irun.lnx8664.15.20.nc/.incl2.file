@@ -1,4 +1,8 @@
-demux1to4_nand.v
-/home/user2/vlsi18/vlsi1812/Lab3/demux1to4_nand.v
-demux1to2_nand.v
-/home/user2/vlsi18/vlsi1812/Lab3/demux1to2_nand.v
+demux1to7_v1.v
+/home/user2/vlsi18/vlsi1812/Lab3/demux1to7_v1.v
+demux1to2.v
+/home/user2/vlsi18/vlsi1812/Lab3/demux1to2.v
+demux1to4.v
+/home/user2/vlsi18/vlsi1812/Lab3/demux1to4.v
+./demux1to2.v
+/home/user2/vlsi18/vlsi1812/Lab3/demux1to2.v

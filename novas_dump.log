@@ -91,61 +91,62 @@ IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
 TCL_LIBRARY=/usr/cad/cadence/INCISIV/cur/tools/inca/files/tcl/library
 Runtime command line arguments:
 argv[0]=ncverilog
-argv[1]=demux1to4_nand_tb.v
-argv[2]=+define+FSDB
+argv[1]=demux1to7_tb.v
+argv[2]=+define+v1+FSDB
 argv[3]=+access+r
 96 profile - 100
-          CPU/Mem usage: 0.040 sys,  0.030 user,  99.34M sys,  0.00M vm
+          CPU/Mem usage: 0.030 sys,  0.040 user,  99.36M sys,  0.00M vm
 97 VC callback profile - scalar:0 vector:0
-98 Thu Mar 22 15:14:57 2018
+98 Thu Mar 22 16:21:22 2018
 99 pliAppInit
 100 FSDB_GATE is disabled.
 101 Enable Parallel Dumping.
 102 pliAppMiscSet: New Sim Round
 103 pliEntryInit
 104 LIBSSCORE=found /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/libsscore_ius152.so through $LD_LIBRARY_PATH setting.
-105 argv[0]: demux1to4.fsdb
+105 argv[0]: demux1to7.fsdb
 106 FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux x86_64/64bit, 11/12/2017
 107 (C) 1996 - 2017 by Synopsys, Inc.
-108 sps_call_fsdbDumpfile at 0 : /home/user2/vlsi18/vlsi1812/Lab3/demux1to4_nand_tb.v(41)
-109 argv[0]: demux1to4.fsdb
-110 *Verdi* : Create FSDB file 'demux1to4.fsdb'
-111 sps_call_fsdbDumpvars at 0 : /home/user2/vlsi18/vlsi1812/Lab3/demux1to4_nand_tb.v(42)
-112 *Verdi* : Begin traversing the scopes, layer (0).
-113 *Verdi* : End of traversing.
-114 fsdbDumpvars traverse var: profile - 
-          CPU/Mem usage: 0.040 sys,  0.040 user,  186.54M sys,  0.00M vm
-                   incr: 0.000 sys,  0.000 user,  4.15M sys,  0.00M vm
-                   accu: 0.000 sys,  0.000 user,  4.15M sys,  0.00M vm
-              accu incr: 0.000 sys,  0.000 user,  4.15M sys,  0.00M vm
+108 sps_call_fsdbDumpfile at 0 : /home/user2/vlsi18/vlsi1812/Lab3/demux1to7_tb.v(70)
+109 argv[0]: demux1to7.fsdb
+110 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+111 *Verdi* : Create FSDB file 'demux1to7.fsdb'
+112 sps_call_fsdbDumpvars at 0 : /home/user2/vlsi18/vlsi1812/Lab3/demux1to7_tb.v(71)
+113 *Verdi* : Begin traversing the scopes, layer (0).
+114 *Verdi* : End of traversing.
+115 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.040 sys,  0.040 user,  186.56M sys,  0.00M vm
+                   incr: 0.010 sys,  0.000 user,  4.15M sys,  0.00M vm
+                   accu: 0.010 sys,  0.000 user,  4.15M sys,  0.00M vm
+              accu incr: 0.010 sys,  0.000 user,  4.15M sys,  0.00M vm
 
-          Count usage: 36 var,  20 idcode,  20 callback
-                 incr: 36 var,  20 idcode,  20 callback
-                 accu: 36 var,  20 idcode,  20 callback
-            accu incr: 36 var,  20 idcode,  20 callback
-115 VC callback profile - scalar:0 vector:0
-116 Thu Mar 22 15:14:57 2018
-117 fsdbDumpvars: profile - 
-          CPU/Mem usage: 0.040 sys,  0.040 user,  187.60M sys,  0.00M vm
+          Count usage: 62 var,  24 idcode,  24 callback
+                 incr: 62 var,  24 idcode,  24 callback
+                 accu: 62 var,  24 idcode,  24 callback
+            accu incr: 62 var,  24 idcode,  24 callback
+116 VC callback profile - scalar:0 vector:0
+117 Thu Mar 22 16:21:22 2018
+118 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.040 sys,  0.040 user,  187.62M sys,  0.00M vm
                    incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
-                   accu: 0.000 sys,  0.000 user,  5.21M sys,  0.00M vm
+                   accu: 0.010 sys,  0.000 user,  5.21M sys,  0.00M vm
               accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
 
-          Count usage: 36 var,  20 idcode,  20 callback
+          Count usage: 62 var,  24 idcode,  24 callback
                  incr: 0 var,  0 idcode,  0 callback
-                 accu: 36 var,  20 idcode,  20 callback
+                 accu: 62 var,  24 idcode,  24 callback
             accu incr: 0 var,  0 idcode,  0 callback
-118 VC callback profile - scalar:19 vector:1
-119 Thu Mar 22 15:14:57 2018
-120 End of simulation at 8000
-121 VC callback profile - scalar:96 vector:4
-122 Thu Mar 22 15:14:57 2018
-123 Begin FSDB profile info:
-124 FSDB Writer : bc1(96) bcn(4) mtf/stf(0/0)
-FSDB Writer elapsed time : flush(0.003393) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
+119 VC callback profile - scalar:23 vector:1
+120 Thu Mar 22 16:21:22 2018
+121 End of simulation at 16000
+122 VC callback profile - scalar:165 vector:8
+123 Thu Mar 22 16:21:22 2018
+124 Begin FSDB profile info:
+125 FSDB Writer : bc1(165) bcn(8) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.003546) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
 FSDB Writer cpu time : MT Compression : 0
-125 End FSDB profile info
-126 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:0
-127                        ProduceTime:0.096646187 ConsumerTime:0.000000000 Buffer:64MB
-128 SimExit
-129 Sim process exit
+126 End FSDB profile info
+127 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:0
+128                        ProduceTime:0.095157385 ConsumerTime:0.000000000 Buffer:64MB
+129 SimExit
+130 Sim process exit

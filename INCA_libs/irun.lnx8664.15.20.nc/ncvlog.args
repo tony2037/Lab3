@@ -5,7 +5,9 @@
 -XLMODE
 ./INCA_libs/irun.lnx8664.15.20.nc
 -RUNMODE
-demux1to4_nand_tb.v
+demux1to7_tb.v
+-DEFINE
+v1
 -DEFINE
 FSDB
 -CDSLIB

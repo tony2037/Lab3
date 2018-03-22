@@ -218,7 +218,7 @@ Selection-LineWidth = 1
 [FSM_Dlg-Print]
 Orientation = Landscape
 [FileBrowser]
-nWaveOpenFsdbDirHistory = "\"/home/user2/vlsi18/vlsi1812/lab2/test.fsdb\"" "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to7.fsdb\"" "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to2.fsdb\""
+nWaveOpenFsdbDirHistory = "\"/home/user2/vlsi18/vlsi1812/lab2/test.fsdb\"" "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to7.fsdb\"" "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to2.fsdb\"" "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to4.fsdb\""
 [Form]
 version = Verdi_N-2017.12
 [General]
@@ -361,8 +361,8 @@ savePropDtl = TRUE
 [QtDialog]
 importDesignForm = 642,290,684,661
 QwUserAskDlg = 800,496,334,140
-openFileDlg = 668,360,652,533
-qWaveSignalDialog = 569,362,850,529
+openFileDlg = 632,284,672,553
+qWaveSignalDialog = 533,286,870,549
 [Relationship]
 hideRecursiceNode = FALSE
 [Session Cache]
@@ -678,7 +678,7 @@ waveform_vertical_scroll_bar = TRUE
 scope_to_save_with_macro
 open_file_dir
 open_rc_file_dir
-getSignalForm = 569 362 850 529 178 431 422 102
+getSignalForm = 538 291 860 539 181 441 429 104
 viewPort = 0 22 1920 1018 100 65
 signalSpacing = 5
 digitalSignalHeight = 15
@@ -940,9 +940,10 @@ curveWindow_Drag&Drop_Mode = TRUE
 hspiceIncOpenMode = TRUE
 pcSelectMode = TRUE
 hierarchyDelimiter = /
-RecentFile1 = "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to2.fsdb\""
-RecentFile2 = "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to7.fsdb\""
-RecentFile3 = "\"/home/user2/vlsi18/vlsi1812/lab2/test.fsdb\""
+RecentFile1 = "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to4.fsdb\""
+RecentFile2 = "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to2.fsdb\""
+RecentFile3 = "\"/home/user2/vlsi18/vlsi1812/Lab3/demux1to7.fsdb\""
+RecentFile4 = "\"/home/user2/vlsi18/vlsi1812/lab2/test.fsdb\""
 open_file_time_range = FALSE
 value_window_aligment = Right
 signal_window_alignment = Auto

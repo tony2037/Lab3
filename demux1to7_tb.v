@@ -22,7 +22,6 @@
 	`include "demux1to7_v3.v"
 `endif
 
-`include "demux1to7.v"
 
 module demux1to7_tb;
 reg [2:0] Sel;

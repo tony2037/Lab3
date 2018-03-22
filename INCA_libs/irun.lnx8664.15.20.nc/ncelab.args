@@ -2,7 +2,7 @@
 // File created by:  ncverilog
 // Do not modify this file
 //
-+define+FSDB
++define+v1+FSDB
 +access+r
 -noshowtop
 -ACCESS
